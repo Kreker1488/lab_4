@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Git/lab_projects_2025/lab_4/build/Desktop-Release/cmake_install.cmake",
+		"C:/Git/lab_projects_2025/lab_4/build/Desktop-Release/Logger/cmake_install.cmake",
+		"C:/Git/lab_projects_2025/lab_4/build/Desktop-Release/main/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

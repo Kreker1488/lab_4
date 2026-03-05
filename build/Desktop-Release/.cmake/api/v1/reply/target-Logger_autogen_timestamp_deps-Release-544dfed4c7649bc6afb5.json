@@ -1,0 +1,47 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"Logger/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"id" : "Logger_autogen_timestamp_deps::@8307d85a046eb72c8a29",
+	"isGeneratorProvided" : true,
+	"name" : "Logger_autogen_timestamp_deps",
+	"orderDependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "Qt6::moc::@8307d85a046eb72c8a29"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Qt6::Core::@8307d85a046eb72c8a29"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Qt6::uic::@15c4a824ab2728a3f5e7"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Logger",
+		"source" : "Logger"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}
