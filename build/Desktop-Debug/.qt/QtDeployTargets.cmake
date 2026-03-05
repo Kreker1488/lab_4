@@ -1,0 +1,6 @@
+set(__QT_DEPLOY_TARGET_Logger_FILE C:/Git/lab_projects_2025/lab_4/build/Desktop-Debug/Logger/Logger.dll)
+set(__QT_DEPLOY_TARGET_Logger_TYPE SHARED_LIBRARY)
+set(__QT_DEPLOY_TARGET_Logger_RUNTIME_DLLS C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/bin/Qt6Cored.dll)
+set(__QT_DEPLOY_TARGET_main_FILE C:/Git/lab_projects_2025/lab_4/build/Desktop-Debug/main/main.exe)
+set(__QT_DEPLOY_TARGET_main_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_main_RUNTIME_DLLS C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/bin/Qt6Widgetsd.dll;C:/Git/lab_projects_2025/lab_4/build/Desktop-Debug/Logger/Logger.dll;C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/bin/Qt6Guid.dll;C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/bin/Qt6Cored.dll;C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/bin/Qt6Cored.dll)
