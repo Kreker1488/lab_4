@@ -317,6 +317,12 @@
 			"MU",
 			"EWIEGA46WW/moc_registerwindow.cpp",
 			null
+		],
+		[
+			"C:/Git/lab_projects_2025/lab_4/main/uploader.h",
+			"MU",
+			"EWIEGA46WW/moc_uploader.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -380,7 +386,8 @@
 		[ "C:/Git/lab_projects_2025/lab_4/main/main.cpp", "MU", null ],
 		[ "C:/Git/lab_projects_2025/lab_4/main/mainwindow.cpp", "MU", null ],
 		[ "C:/Git/lab_projects_2025/lab_4/main/profile.cpp", "MU", null ],
-		[ "C:/Git/lab_projects_2025/lab_4/main/registerwindow.cpp", "MU", null ]
+		[ "C:/Git/lab_projects_2025/lab_4/main/registerwindow.cpp", "MU", null ],
+		[ "C:/Git/lab_projects_2025/lab_4/main/uploader.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

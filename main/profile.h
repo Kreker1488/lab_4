@@ -2,6 +2,7 @@
 #define PROFILE_H
 
 #include <QWidget>
+#include "uploader.h"
 
 class LoginWindow;
 class Changer;
@@ -23,9 +24,13 @@ public:
 private slots:
     void on_pushButton_change_clicked();
 
+    void on_pushButton_upload_clicked();
+
 private:
     Ui::Profile *ui;
     Changer *changer;
+    Uploader *uploader;
+    void updatePhoto(int index); //загрузка и показ фото
 
     QString _login;
     QString _path;

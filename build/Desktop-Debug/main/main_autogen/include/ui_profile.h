@@ -22,6 +22,7 @@ class Ui_Profile
 public:
     QLabel *label_photo;
     QPushButton *pushButton_change;
+    QPushButton *pushButton_upload;
 
     void setupUi(QWidget *Profile)
     {
@@ -33,7 +34,10 @@ public:
         label_photo->setGeometry(QRect(90, 20, 221, 211));
         pushButton_change = new QPushButton(Profile);
         pushButton_change->setObjectName("pushButton_change");
-        pushButton_change->setGeometry(QRect(160, 250, 80, 24));
+        pushButton_change->setGeometry(QRect(250, 250, 101, 24));
+        pushButton_upload = new QPushButton(Profile);
+        pushButton_upload->setObjectName("pushButton_upload");
+        pushButton_upload->setGeometry(QRect(50, 250, 91, 24));
 
         retranslateUi(Profile);
 
@@ -45,6 +49,7 @@ public:
         Profile->setWindowTitle(QCoreApplication::translate("Profile", "Form", nullptr));
         label_photo->setText(QCoreApplication::translate("Profile", "TextLabel", nullptr));
         pushButton_change->setText(QCoreApplication::translate("Profile", "Change photo", nullptr));
+        pushButton_upload->setText(QCoreApplication::translate("Profile", "Upload photo", nullptr));
     } // retranslateUi
 
 };

@@ -1,4 +1,5 @@
 C:/Git/lab_projects_2025/lab_4/build/Desktop-Debug/main/main_autogen/EWIEGA46WW/moc_profile.cpp: C:/Git/lab_projects_2025/lab_4/main/profile.h \
+  C:/Git/lab_projects_2025/lab_4/main/uploader.h \
   C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.22621.0/ucrt/assert.h \
   C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.22621.0/ucrt/corecrt.h \
   C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.22621.0/ucrt/corecrt_malloc.h \
@@ -26,6 +27,7 @@ C:/Git/lab_projects_2025/lab_4/build/Desktop-Debug/main/main_autogen/EWIEGA46WW/
   C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/VC/Tools/MSVC/14.37.32822/include/cstdint \
   C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/VC/Tools/MSVC/14.37.32822/include/cstdlib \
   C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/VC/Tools/MSVC/14.37.32822/include/cstring \
+  C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/VC/Tools/MSVC/14.37.32822/include/filesystem \
   C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/VC/Tools/MSVC/14.37.32822/include/functional \
   C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/VC/Tools/MSVC/14.37.32822/include/initializer_list \
   C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/VC/Tools/MSVC/14.37.32822/include/iterator \
@@ -80,6 +82,7 @@ C:/Git/lab_projects_2025/lab_4/build/Desktop-Debug/main/main_autogen/EWIEGA46WW/
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qbytearrayalgorithms.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qbytearraylist.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qbytearrayview.h \
+  C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qcalendar.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qchar.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qcheckedint_impl.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qcompare.h \
@@ -94,9 +97,15 @@ C:/Git/lab_projects_2025/lab_4/build/Desktop-Debug/main/main_autogen/EWIEGA46WW/
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qcontiguouscache.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qdarwinhelpers.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qdatastream.h \
+  C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qdatetime.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qdebug.h \
+  C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qdir.h \
+  C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qdirlisting.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qendian.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qexceptionhandling.h \
+  C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qfile.h \
+  C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qfiledevice.h \
+  C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qfileinfo.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qflags.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qfloat16.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qforeach.h \
@@ -107,12 +116,14 @@ C:/Git/lab_projects_2025/lab_4/build/Desktop-Debug/main/main_autogen/EWIEGA46WW/
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qglobalstatic.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qhash.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qhashfunctions.h \
+  C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qiodevice.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qiodevicebase.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qiterable.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qiterator.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qlatin1stringview.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qline.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qlist.h \
+  C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qlocale.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qlogging.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qmalloc.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qmap.h \
@@ -169,6 +180,7 @@ C:/Git/lab_projects_2025/lab_4/build/Desktop-Debug/main/main_autogen/EWIEGA46WW/
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qtenvironmentvariables.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qtextstream.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qtformat_impl.h \
+  C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qtimezone.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qtmetamacros.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qtnoop.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qtpreprocessorsupport.h \
@@ -179,6 +191,7 @@ C:/Git/lab_projects_2025/lab_4/build/Desktop-Debug/main/main_autogen/EWIEGA46WW/
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qtversionchecks.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qtypeinfo.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qtypes.h \
+  C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qurl.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qutf8stringview.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qvariant.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/qvarlengtharray.h \
@@ -211,7 +224,11 @@ C:/Git/lab_projects_2025/lab_4/build/Desktop-Debug/main/main_autogen/EWIEGA46WW/
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtGui/qtransform.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtGui/qwindowdefs.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtGui/qwindowdefs_win.h \
+  C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtWidgets/QDialog \
+  C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtWidgets/QFileDialog \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtWidgets/QWidget \
+  C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtWidgets/qdialog.h \
+  C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtWidgets/qfiledialog.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtWidgets/qsizepolicy.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtWidgets/qtwidgets-config.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtWidgets/qtwidgetsexports.h \
