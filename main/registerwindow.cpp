@@ -6,10 +6,13 @@
 #include <QCoreApplication>
 #include "logger.h"
 #include <QCryptographicHash>
+#include <filesystem>
 
 RegisterWindow::RegisterWindow(QWidget *parent)
     : QWidget(parent)
     , ui(new Ui::RegisterWindow)
+    , login("")
+    , password("")
 {
     ui->setupUi(this);
 }
@@ -42,8 +45,10 @@ inline QString hashPassword(const QString &password) // функция для х
 void RegisterWindow::on_pushButton_register_clicked()
 {
     //Берём логин и пароль из полей ввода
-    QString login = ui->lineEdit_login->text();
-    QString password = ui->lineEdit_password->text();
+
+
+    login = ui->lineEdit_login->text();
+    password = ui->lineEdit_password->text();
     password = hashPassword(password);
 
     if (login.isEmpty() || password.isEmpty()) {
@@ -90,6 +95,9 @@ void RegisterWindow::on_pushButton_register_clicked()
     file.close();
 
     Logger::Info("New user have appended: ");
+
+    QString user_path = QCoreApplication::applicationDirPath() + "/photos/" + login;
+    std::filesystem::create_directory(user_path.toStdString());
 
 
 }

@@ -6,6 +6,7 @@
 #include "loginwindow.h"
 #include "registerwindow.h"
 
+
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class MainWindow;
@@ -29,5 +30,6 @@ private:
     Ui::MainWindow *ui;
     LoginWindow *loginWindow;
     RegisterWindow *registerWindow;
+
 };
 #endif // MAINWINDOW_H

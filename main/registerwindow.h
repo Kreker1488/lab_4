@@ -2,6 +2,7 @@
 #define REGISTERWINDOW_H
 
 
+#include "ui_registerwindow.h"
 #include <QWidget>
 
 class MainWindow;
@@ -27,6 +28,8 @@ private slots:
 private:
     Ui::RegisterWindow *ui;
     MainWindow *mainWindow;
+    QString login;
+    QString password;
 };
 
 #endif // REGISTERWINDOW_H

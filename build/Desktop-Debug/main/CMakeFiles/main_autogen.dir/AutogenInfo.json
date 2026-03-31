@@ -289,6 +289,12 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Git/lab_projects_2025/lab_4/main/changer.h",
+			"MU",
+			"EWIEGA46WW/moc_changer.cpp",
+			null
+		],
+		[
 			"C:/Git/lab_projects_2025/lab_4/main/loginwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_loginwindow.cpp",
@@ -369,6 +375,7 @@
 	"SETTINGS_FILE" : "C:/Git/lab_projects_2025/lab_4/build/Desktop-Debug/main/CMakeFiles/main_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "C:/Git/lab_projects_2025/lab_4/main/changer.cpp", "MU", null ],
 		[ "C:/Git/lab_projects_2025/lab_4/main/loginwindow.cpp", "MU", null ],
 		[ "C:/Git/lab_projects_2025/lab_4/main/main.cpp", "MU", null ],
 		[ "C:/Git/lab_projects_2025/lab_4/main/mainwindow.cpp", "MU", null ],

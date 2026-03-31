@@ -3,6 +3,9 @@
 
 #include <QWidget>
 
+class LoginWindow;
+class Changer;
+
 namespace Ui {
 class Profile;
 }
@@ -12,14 +15,21 @@ class Profile : public QWidget
     Q_OBJECT
 
 public:
-    explicit Profile(QWidget *parent = nullptr);
+    explicit Profile(const QString &login, QWidget *parent = nullptr);
     ~Profile();
+
+    void changePhoto(const QString &path);
 
 private slots:
     void on_pushButton_change_clicked();
 
 private:
     Ui::Profile *ui;
+    Changer *changer;
+
+    QString _login;
+    QString _path;
+
 };
 
 #endif // PROFILE_H

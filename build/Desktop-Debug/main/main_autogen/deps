@@ -11,6 +11,8 @@ main_autogen/timestamp: \
 	C:/CMake/share/cmake-4.2/Modules/GNUInstallDirs.cmake \
 	C:/Git/lab_projects_2025/lab_4/build/Desktop-Debug/.qtc/package-manager/auto-setup.cmake \
 	C:/Git/lab_projects_2025/lab_4/main/CMakeLists.txt \
+	C:/Git/lab_projects_2025/lab_4/main/changer.cpp \
+	C:/Git/lab_projects_2025/lab_4/main/changer.h \
 	C:/Git/lab_projects_2025/lab_4/main/loginwindow.cpp \
 	C:/Git/lab_projects_2025/lab_4/main/loginwindow.h \
 	C:/Git/lab_projects_2025/lab_4/main/main.cpp \
@@ -232,8 +234,10 @@ main_autogen/timestamp: \
 	C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtGui/qtransform.h \
 	C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtGui/qwindowdefs.h \
 	C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtGui/qwindowdefs_win.h \
+	C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtWidgets/QDialog \
 	C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtWidgets/QMainWindow \
 	C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtWidgets/QWidget \
+	C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtWidgets/qdialog.h \
 	C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtWidgets/qmainwindow.h \
 	C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtWidgets/qsizepolicy.h \
 	C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtWidgets/qtabwidget.h \
@@ -413,6 +417,7 @@ main_autogen/timestamp: \
 	C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
 	C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargetsPrecheck.cmake \
 	C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
+	C:/Git/lab_projects_2025/lab_4/main/changer.ui \
 	C:/Git/lab_projects_2025/lab_4/main/loginwindow.ui \
 	C:/Git/lab_projects_2025/lab_4/main/mainwindow.ui \
 	C:/Git/lab_projects_2025/lab_4/main/profile.ui \

@@ -39,7 +39,7 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
     namespace QMC = QtMocConstants;
     QtMocHelpers::StringRefStorage qt_stringData {
         "MainWindow",
-        "0$ylqYtcbuxuxQnMS3QKIZP3O/mcQ",
+        "0$MAY+uLXgnyynKcf0c4PS0fNc5wk",
         "on_pushButton_login_clicked",
         "",
         "on_pushButton_register_clicked"

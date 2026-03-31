@@ -7,13 +7,24 @@
 #include "logger.h"
 #include <QCryptographicHash>
 #include "profile.h"
+#include "changer.h"
 
 LoginWindow::LoginWindow(QWidget *parent)
     : QWidget(parent)
     , ui(new Ui::LoginWindow)
+    , _login("")
+    , _password("")
 {
     ui->setupUi(this);
 }
+
+
+
+/*QString LoginWindow::getLogin(){
+    return _login;
+}*/
+
+
 
 LoginWindow::~LoginWindow()
 {
@@ -78,10 +89,14 @@ void LoginWindow::on_pushButton_login_clicked()
     file.close();
 
     if (loginSuccess) {
+        login = ui->lineEdit_login->text();
+        password = ui->lineEdit_password->text();
+
+
         Logger::Info("Success login");
-        Profile *profileWin = new Profile();
+        Profile *profileWin = new Profile(login);
         profileWin->show();
-        this->close();
+        this->hide();
     } else {
         Logger::Warning("Wrong login or password");
     }
