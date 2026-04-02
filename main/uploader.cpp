@@ -62,3 +62,10 @@ bool Uploader::uploadNewPhoto(const QPixmap &photo)
 
     return savePhoto(index, photo);
 }
+
+
+void Uploader::deletePhoto(int index)
+{
+    QString filePath = _user_path + QString::number(index) + ".jpg";
+    QFile::remove(filePath);
+}

@@ -39,10 +39,14 @@ template <> constexpr inline auto Profile::qt_create_metaobjectdata<qt_meta_tag_
     namespace QMC = QtMocConstants;
     QtMocHelpers::StringRefStorage qt_stringData {
         "Profile",
-        "0$rDUvDiBs36t5HNO0zc2w9eSrvFM",
+        "0$aMUJIhgJT/gq+hViaJHX98UnxJ0",
         "on_pushButton_change_clicked",
         "",
-        "on_pushButton_upload_clicked"
+        "on_pushButton_upload_clicked",
+        "updatePhoto",
+        "index",
+        "on_pushButton_delete_clicked",
+        "getNextExistingPhotoIndex"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -50,6 +54,14 @@ template <> constexpr inline auto Profile::qt_create_metaobjectdata<qt_meta_tag_
         QtMocHelpers::SlotData<void()>(2, 3, QMC::AccessPrivate, QMetaType::Void),
         // Slot 'on_pushButton_upload_clicked'
         QtMocHelpers::SlotData<void()>(4, 3, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'updatePhoto'
+        QtMocHelpers::SlotData<void(int)>(5, 3, QMC::AccessPrivate, QMetaType::Void, {{
+            { QMetaType::Int, 6 },
+        }}),
+        // Slot 'on_pushButton_delete_clicked'
+        QtMocHelpers::SlotData<void()>(7, 3, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'getNextExistingPhotoIndex'
+        QtMocHelpers::SlotData<int() const>(8, 3, QMC::AccessPrivate, QMetaType::Int),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -76,10 +88,13 @@ void Profile::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
         switch (_id) {
         case 0: _t->on_pushButton_change_clicked(); break;
         case 1: _t->on_pushButton_upload_clicked(); break;
+        case 2: _t->updatePhoto((*reinterpret_cast<std::add_pointer_t<int>>(_a[1]))); break;
+        case 3: _t->on_pushButton_delete_clicked(); break;
+        case 4: { int _r = _t->getNextExistingPhotoIndex();
+            if (_a[0]) *reinterpret_cast<int*>(_a[0]) = std::move(_r); }  break;
         default: ;
         }
     }
-    (void)_a;
 }
 
 const QMetaObject *Profile::metaObject() const
@@ -101,14 +116,14 @@ int Profile::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 2)
+        if (_id < 5)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 2;
+        _id -= 5;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 2)
+        if (_id < 5)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 2;
+        _id -= 5;
     }
     return _id;
 }

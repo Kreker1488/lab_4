@@ -26,11 +26,17 @@ private slots:
 
     void on_pushButton_upload_clicked();
 
+    void updatePhoto(int index); //загрузка и показ фото
+
+    void on_pushButton_delete_clicked();
+
+    int getNextExistingPhotoIndex() const;
+
 private:
     Ui::Profile *ui;
     Changer *changer;
     Uploader *uploader;
-    void updatePhoto(int index); //загрузка и показ фото
+    int _currentIndex;
 
     QString _login;
     QString _path;

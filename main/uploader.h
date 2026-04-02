@@ -22,6 +22,8 @@ public:
 
     bool hasFreeSlot() const; // Проверить, можно ли загрузить ещё фото
 
+    void deletePhoto(int index);
+
 
 private:
     QString _login;

@@ -29,7 +29,7 @@
   <widget class="QPushButton" name="pushButton_change">
    <property name="geometry">
     <rect>
-     <x>250</x>
+     <x>270</x>
      <y>250</y>
      <width>101</width>
      <height>24</height>
@@ -42,7 +42,7 @@
   <widget class="QPushButton" name="pushButton_upload">
    <property name="geometry">
     <rect>
-     <x>50</x>
+     <x>30</x>
      <y>250</y>
      <width>91</width>
      <height>24</height>
@@ -50,6 +50,19 @@
    </property>
    <property name="text">
     <string>Upload photo</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_delete">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>250</y>
+     <width>111</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Delete photo</string>
    </property>
   </widget>
  </widget>

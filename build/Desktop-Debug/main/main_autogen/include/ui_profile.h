@@ -23,6 +23,7 @@ public:
     QLabel *label_photo;
     QPushButton *pushButton_change;
     QPushButton *pushButton_upload;
+    QPushButton *pushButton_delete;
 
     void setupUi(QWidget *Profile)
     {
@@ -34,10 +35,13 @@ public:
         label_photo->setGeometry(QRect(90, 20, 221, 211));
         pushButton_change = new QPushButton(Profile);
         pushButton_change->setObjectName("pushButton_change");
-        pushButton_change->setGeometry(QRect(250, 250, 101, 24));
+        pushButton_change->setGeometry(QRect(270, 250, 101, 24));
         pushButton_upload = new QPushButton(Profile);
         pushButton_upload->setObjectName("pushButton_upload");
-        pushButton_upload->setGeometry(QRect(50, 250, 91, 24));
+        pushButton_upload->setGeometry(QRect(30, 250, 91, 24));
+        pushButton_delete = new QPushButton(Profile);
+        pushButton_delete->setObjectName("pushButton_delete");
+        pushButton_delete->setGeometry(QRect(140, 250, 111, 24));
 
         retranslateUi(Profile);
 
@@ -50,6 +54,7 @@ public:
         label_photo->setText(QCoreApplication::translate("Profile", "TextLabel", nullptr));
         pushButton_change->setText(QCoreApplication::translate("Profile", "Change photo", nullptr));
         pushButton_upload->setText(QCoreApplication::translate("Profile", "Upload photo", nullptr));
+        pushButton_delete->setText(QCoreApplication::translate("Profile", "Delete photo", nullptr));
     } // retranslateUi
 
 };
