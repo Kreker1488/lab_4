@@ -307,6 +307,12 @@
 			null
 		],
 		[
+			"C:/Git/lab_projects_2025/lab_4/main/photooperation.h",
+			"MU",
+			"EWIEGA46WW/moc_photooperation.cpp",
+			null
+		],
+		[
 			"C:/Git/lab_projects_2025/lab_4/main/profile.h",
 			"MU",
 			"EWIEGA46WW/moc_profile.cpp",
@@ -322,6 +328,18 @@
 			"C:/Git/lab_projects_2025/lab_4/main/uploader.h",
 			"MU",
 			"EWIEGA46WW/moc_uploader.cpp",
+			null
+		],
+		[
+			"C:/Git/lab_projects_2025/lab_4/main/uploadphoto.h",
+			"MU",
+			"EWIEGA46WW/moc_uploadphoto.cpp",
+			null
+		],
+		[
+			"C:/Git/lab_projects_2025/lab_4/main/user.h",
+			"MU",
+			"EWIEGA46WW/moc_user.cpp",
 			null
 		]
 	],
@@ -387,7 +405,9 @@
 		[ "C:/Git/lab_projects_2025/lab_4/main/mainwindow.cpp", "MU", null ],
 		[ "C:/Git/lab_projects_2025/lab_4/main/profile.cpp", "MU", null ],
 		[ "C:/Git/lab_projects_2025/lab_4/main/registerwindow.cpp", "MU", null ],
-		[ "C:/Git/lab_projects_2025/lab_4/main/uploader.cpp", "MU", null ]
+		[ "C:/Git/lab_projects_2025/lab_4/main/uploader.cpp", "MU", null ],
+		[ "C:/Git/lab_projects_2025/lab_4/main/uploadphoto.cpp", "MU", null ],
+		[ "C:/Git/lab_projects_2025/lab_4/main/user.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

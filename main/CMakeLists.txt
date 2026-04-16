@@ -28,6 +28,9 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         profile.h profile.cpp profile.ui
         changer.h changer.cpp changer.ui
         uploader.h uploader.cpp
+        photooperation.h
+        uploadphoto.h uploadphoto.cpp
+        user.h user.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET main APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

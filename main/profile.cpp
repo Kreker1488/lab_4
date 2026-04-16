@@ -16,10 +16,13 @@ Profile::Profile(const QString &login, QWidget *parent)
     , ui(new Ui::Profile)
     , uploader(new Uploader(login)) //создание фасада
     , _currentIndex(1)
+    , _user(new User(login))
 {
     ui->setupUi(this);
     _login = login;
 
+
+    _uploadOp = std::make_unique<UploadPhoto>();
 
     uploader->savePhoto(-1, QCoreApplication::applicationDirPath() + "/photos/" + "-1.jpg");
     updatePhoto(-1); //загрузка первого фото при открытии
@@ -67,34 +70,9 @@ void Profile::updatePhoto(int index){
 
 void Profile::on_pushButton_upload_clicked()
 {
-    if (!uploader->hasFreeSlot()) {
-        Logger::Warning("Limit count of photo!");
-        return;
-    }
-
-
-    // Диалог выбора файла
-    QString fileName = QFileDialog::getOpenFileName(this,
-                                                    "Choose the photo",
-                                                    QString(),
-                                                    "Images (*.jpg *.jpeg *.png)");
-
-    if (fileName.isEmpty()) return;
-
-    // Загружаем фото
-    QPixmap pix(fileName);
-    if (pix.isNull()) {
-        Logger::Warning("Photo was not load");
-        return;
-    }
-
-    // Сохраняем через аплоадер
-    if (uploader->uploadNewPhoto(pix)) {
-        Logger::Info("Photo saved");
-        updatePhoto(getNextExistingPhotoIndex());   // обновляем отображение
-    } else {
-        Logger::Error("Photo Save Error");
-    }
+    _uploadOp->execute(_user, "", [this](){
+        updatePhoto(getNextExistingPhotoIndex());
+    });
 }
 
 int Profile::getNextExistingPhotoIndex() const

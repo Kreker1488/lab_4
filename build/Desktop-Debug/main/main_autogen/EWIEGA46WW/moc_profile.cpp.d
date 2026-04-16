@@ -1,5 +1,8 @@
 C:/Git/lab_projects_2025/lab_4/build/Desktop-Debug/main/main_autogen/EWIEGA46WW/moc_profile.cpp: C:/Git/lab_projects_2025/lab_4/main/profile.h \
+  C:/Git/lab_projects_2025/lab_4/main/photooperation.h \
   C:/Git/lab_projects_2025/lab_4/main/uploader.h \
+  C:/Git/lab_projects_2025/lab_4/main/uploadphoto.h \
+  C:/Git/lab_projects_2025/lab_4/main/user.h \
   C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.22621.0/ucrt/assert.h \
   C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.22621.0/ucrt/corecrt.h \
   C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.22621.0/ucrt/corecrt_malloc.h \
@@ -58,6 +61,7 @@ C:/Git/lab_projects_2025/lab_4/build/Desktop-Debug/main/main_autogen/EWIEGA46WW/
   C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/VC/Tools/MSVC/14.37.32822/include/version \
   C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/VC/Tools/MSVC/14.37.32822/include/yvals.h \
   C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/VC/Tools/MSVC/14.37.32822/include/yvals_core.h \
+  C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/QString \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/q17memory.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/q20bit.h \
   C:/qt_sample_app/ext/qt-6.12.0-win10-22H2-x64-msvc-194/include/QtCore/q20functional.h \

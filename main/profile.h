@@ -3,6 +3,8 @@
 
 #include <QWidget>
 #include "uploader.h"
+#include "user.h"
+#include "uploadphoto.h"
 
 class LoginWindow;
 class Changer;
@@ -41,6 +43,8 @@ private:
     QString _login;
     QString _path;
 
+    std::unique_ptr<PhotoOperation> _uploadOp;
+    User* _user;
 };
 
 #endif // PROFILE_H

@@ -39,7 +39,7 @@ template <> constexpr inline auto Profile::qt_create_metaobjectdata<qt_meta_tag_
     namespace QMC = QtMocConstants;
     QtMocHelpers::StringRefStorage qt_stringData {
         "Profile",
-        "0$aMUJIhgJT/gq+hViaJHX98UnxJ0",
+        "0$VdMToE9agmvYBTfrF1ONPYE+FQI",
         "on_pushButton_change_clicked",
         "",
         "on_pushButton_upload_clicked",

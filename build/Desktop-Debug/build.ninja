@@ -338,6 +338,28 @@ build main\CMakeFiles\main.dir\uploader.cpp.obj: CXX_COMPILER__main_unscanned_De
   TARGET_PDB = main\main.pdb
   TARGET_SUPPORT_DIR = main\CMakeFiles\main.dir
 
+build main\CMakeFiles\main.dir\uploadphoto.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:\Git\lab_projects_2025\lab_4\main\uploadphoto.cpp || cmake_object_order_depends_target_main
+  CONFIG = Debug
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd -Zc:__cplusplus -permissive- -utf-8
+  INCLUDES = -IC:\Git\lab_projects_2025\lab_4\build\Desktop-Debug\main\main_autogen\include -IC:\Git\lab_projects_2025\lab_4\main\..\Logger -external:IC:\qt_sample_app\ext\qt-6.12.0-win10-22H2-x64-msvc-194\include\QtCore -external:IC:\qt_sample_app\ext\qt-6.12.0-win10-22H2-x64-msvc-194\include -external:IC:\qt_sample_app\ext\qt-6.12.0-win10-22H2-x64-msvc-194\mkspecs\win32-msvc -external:IC:\qt_sample_app\ext\qt-6.12.0-win10-22H2-x64-msvc-194\include\QtWidgets -external:IC:\qt_sample_app\ext\qt-6.12.0-win10-22H2-x64-msvc-194\include\QtGui -external:W0
+  OBJECT_DIR = main\CMakeFiles\main.dir
+  OBJECT_FILE_DIR = main\CMakeFiles\main.dir
+  TARGET_COMPILE_PDB = main\CMakeFiles\main.dir\
+  TARGET_PDB = main\main.pdb
+  TARGET_SUPPORT_DIR = main\CMakeFiles\main.dir
+
+build main\CMakeFiles\main.dir\user.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:\Git\lab_projects_2025\lab_4\main\user.cpp || cmake_object_order_depends_target_main
+  CONFIG = Debug
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd -Zc:__cplusplus -permissive- -utf-8
+  INCLUDES = -IC:\Git\lab_projects_2025\lab_4\build\Desktop-Debug\main\main_autogen\include -IC:\Git\lab_projects_2025\lab_4\main\..\Logger -external:IC:\qt_sample_app\ext\qt-6.12.0-win10-22H2-x64-msvc-194\include\QtCore -external:IC:\qt_sample_app\ext\qt-6.12.0-win10-22H2-x64-msvc-194\include -external:IC:\qt_sample_app\ext\qt-6.12.0-win10-22H2-x64-msvc-194\mkspecs\win32-msvc -external:IC:\qt_sample_app\ext\qt-6.12.0-win10-22H2-x64-msvc-194\include\QtWidgets -external:IC:\qt_sample_app\ext\qt-6.12.0-win10-22H2-x64-msvc-194\include\QtGui -external:W0
+  OBJECT_DIR = main\CMakeFiles\main.dir
+  OBJECT_FILE_DIR = main\CMakeFiles\main.dir
+  TARGET_COMPILE_PDB = main\CMakeFiles\main.dir\
+  TARGET_PDB = main\main.pdb
+  TARGET_SUPPORT_DIR = main\CMakeFiles\main.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target main
@@ -346,7 +368,7 @@ build main\CMakeFiles\main.dir\uploader.cpp.obj: CXX_COMPILER__main_unscanned_De
 #############################################
 # Link the executable main\main.exe
 
-build main\main.exe: CXX_EXECUTABLE_LINKER__main_Debug main\CMakeFiles\main.dir\main_autogen\mocs_compilation.cpp.obj main\CMakeFiles\main.dir\main.cpp.obj main\CMakeFiles\main.dir\mainwindow.cpp.obj main\CMakeFiles\main.dir\loginwindow.cpp.obj main\CMakeFiles\main.dir\registerwindow.cpp.obj main\CMakeFiles\main.dir\profile.cpp.obj main\CMakeFiles\main.dir\changer.cpp.obj main\CMakeFiles\main.dir\uploader.cpp.obj | C$:\qt_sample_app\ext\qt-6.12.0-win10-22H2-x64-msvc-194\lib\Qt6Widgetsd.lib Logger\Logger.lib C$:\qt_sample_app\ext\qt-6.12.0-win10-22H2-x64-msvc-194\lib\Qt6Guid.lib C$:\qt_sample_app\ext\qt-6.12.0-win10-22H2-x64-msvc-194\lib\Qt6Cored.lib C$:\qt_sample_app\ext\qt-6.12.0-win10-22H2-x64-msvc-194\lib\Qt6EntryPointd.lib || Logger\Logger.dll main\main_autogen main\main_autogen_timestamp_deps
+build main\main.exe: CXX_EXECUTABLE_LINKER__main_Debug main\CMakeFiles\main.dir\main_autogen\mocs_compilation.cpp.obj main\CMakeFiles\main.dir\main.cpp.obj main\CMakeFiles\main.dir\mainwindow.cpp.obj main\CMakeFiles\main.dir\loginwindow.cpp.obj main\CMakeFiles\main.dir\registerwindow.cpp.obj main\CMakeFiles\main.dir\profile.cpp.obj main\CMakeFiles\main.dir\changer.cpp.obj main\CMakeFiles\main.dir\uploader.cpp.obj main\CMakeFiles\main.dir\uploadphoto.cpp.obj main\CMakeFiles\main.dir\user.cpp.obj | C$:\qt_sample_app\ext\qt-6.12.0-win10-22H2-x64-msvc-194\lib\Qt6Widgetsd.lib Logger\Logger.lib C$:\qt_sample_app\ext\qt-6.12.0-win10-22H2-x64-msvc-194\lib\Qt6Guid.lib C$:\qt_sample_app\ext\qt-6.12.0-win10-22H2-x64-msvc-194\lib\Qt6Cored.lib C$:\qt_sample_app\ext\qt-6.12.0-win10-22H2-x64-msvc-194\lib\Qt6EntryPointd.lib || Logger\Logger.dll main\main_autogen main\main_autogen_timestamp_deps
   CONFIG = Debug
   FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:windows
